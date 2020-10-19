@@ -14,6 +14,11 @@
         $(this).remove();
       });
     }
+
+    var dataAtual = new Date().getFullYear(),
+        idade = dataAtual-1987
+
+    document.getElementById("spIdade").innerHTML = idade + " anos"
   });
 
   // Hero typed
