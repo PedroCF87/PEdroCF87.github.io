@@ -261,6 +261,13 @@ i.icoCert {
   height: 16px;
 }
 
+.testimonial-item p img {
+  width: 98px !important;
+  margin-left: -49px;
+  position: relative;
+  left: 50%;
+}
+
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
